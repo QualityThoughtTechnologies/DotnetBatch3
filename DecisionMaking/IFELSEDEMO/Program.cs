@@ -81,6 +81,21 @@ namespace IFELSEDEMO
                 Console.WriteLine("Three");
             }
 
+            //Conditional Operator
+
+            string myMessage = number % 2 == 0 ? "Even" : "Odd";
+
+            // The equivalent if else statement is 
+            //if(number%2==0)
+            //{
+            //    message = "Even";
+            //}
+            //else
+            //{
+            //    message = "Odd";
+            //}
+            Console.WriteLine(myMessage);
+
         }
     }
 }
