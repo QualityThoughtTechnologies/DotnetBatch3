@@ -1,0 +1,15 @@
+﻿body {
+    background-color: gray;
+}
+
+input {
+    border-color: red;
+}
+
+#myLable {
+    background-color: gray;
+}
+
+.mycustomBaground {
+    background-color: yellow;
+}
