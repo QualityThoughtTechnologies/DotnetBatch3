@@ -7,7 +7,8 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <form>
+
+    <form method="post" action="registration.aspx">
         <label id="myLable">First Name</label>  <input type="text" name="firstName123" /><br />
         <label class="mycustomBaground">Last Name</label> <input type="text" name="lastname" /><br />
         <label class="mycustomBaground">Password</label><input type="password" name="password" /><br />
@@ -20,7 +21,7 @@
             <option>TS</option>
         </select><br />
 
-        <input type="button" onclick="submitDate();" name="submit" value="submit" />
+        <input type="submit" onclick="submitDate();" name="submit" value="submit" />
     </form>
 </body>
 </html>
